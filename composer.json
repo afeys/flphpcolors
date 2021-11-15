@@ -1,0 +1,33 @@
+{
+    "name": "afeys/flphpcolors",
+    "description": "Helper classes containing color constants.",
+    "keywords": [
+        "php", "constant", "color", "pantone"
+    ],
+    "homepage": "https://github.com/afeys/flphpcolors",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Feys",
+            "email": "gitprojects@feys.be",
+            "homepage": "http://www.feys.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "support": {
+        "issues": "https://github.com/afeys/flphpcolors/issues",
+        "source": "https://github.com/afeys/flphpcolors/"
+    },
+    "autoload": {
+        "psr-4": { "flphpcolors\\": "src/" },
+        "files": ["src/init.php"]
+    },
+    "autoload-dev": {
+        "classmap": [ "tests" ]
+    }
+}
