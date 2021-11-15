@@ -568,7 +568,7 @@ class Colors {
     const GRAY_2 = '#050505';
     const GRAY_1 = '#030303';
 
-    private $colors = array(
+    public $colors = array(
         'GREEN' => array('collection' => 'standard', 'name' => 'GREEN', 'R' => 0, 'G' => 255, 'B' => 0, 'HEX' => '#00FF00'),
         'RED' => array('collection' => 'standard', 'name' => 'RED', 'R' => 255, 'G' => 0, 'B' => 0, 'HEX' => '#FF0000'),
         'INDIAN_RED' => array('collection' => 'standard', 'name' => 'INDIAN_RED', 'R' => 176, 'G' => 23, 'B' => 31, 'HEX' => '#B0171F'),

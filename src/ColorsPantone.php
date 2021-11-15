@@ -3468,7 +3468,7 @@ class ColorsPantone {
     const PANTONE_Yellow_C = '#FFDD00';
     const PANTONE_Yellow_U = '#FFE700';
     
-    private $colors = array(
+    public $colors = array(
         'PANTONE_100_C' => array('collection' => 'pantone', 'name' => 'PANTONE 100 C', 'R' => 247, 'G' => 234, 'B' => 95, 'HEX' => ' #F7EA5F'),
         'PANTONE_100_U' => array('collection' => 'pantone', 'name' => 'PANTONE 100 U', 'R' => 254, 'G' => 242, 'B' => 126, 'HEX' => ' #FEF27E'),
         'PANTONE_101_C' => array('collection' => 'pantone', 'name' => 'PANTONE 101 C', 'R' => 248, 'G' => 233, 'B' => 70, 'HEX' => ' #F8E946'),
